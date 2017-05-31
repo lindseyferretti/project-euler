@@ -1,2 +1,2 @@
 # project-euler
-Project Euler is a series of challenging mathematical and computer programming problems that range in difficulty and complexity.
+My solutions for problems from [Project Euler](https://projecteuler.net/).
