@@ -15,18 +15,14 @@ def largest_palindrome():
     for i in range(100, 1000):
         for j in range(100, 1000):
             pal = i * j
-            if is_palindrome(pal):
-                if pal > lar_pal:
-                    lar_pal = pal
+            if is_palindrome(pal) and pal > lar_pal:
+                lar_pal = pal
     return lar_pal
 
 
 def is_palindrome(num):
     num = str(num)
-    rev = num[::-1]
-    if num == rev:
-            return True
-    return False
+    return num == num[::-1]
 
 
 def main():
